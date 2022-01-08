@@ -1,33 +1,49 @@
-body{
+body {
     font: 20px Arial, sans-serif;
 }
-.nav-weu{
+
+.nav-weu {
     background: #d5d5d5;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
+}
+
+.quem-somos {
+    background-color: rgba(144, 153, 162, 0.87);
+    color: black;
 
 }
-.quem-somos{
-    background-color: #96858f;
+
+.margin {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.parceiros {
+    background-color: rgba(144, 153, 162, 0.89);
     color: black;
 }
-.margin{
-padding-top: 10px;
-    padding-bottom: 50px ;
-}
-.parceiros{
-    background-color: #6d7993;
+
+.servicos {
+    background-color: rgba(144, 153, 162, 0.85);
     color: black;
 }
-.servicos{
-    background-color:#bacbe6 ;
-    color: black;
+
+.bg-footer {
+    background-color: rgba(109, 121, 147, 0.83);
+    color: #FFFFFF;
+    font-size: 15px;
 }
-.bg-footer{
-    background-color: #9099a2;
-    color: black;
-}
-.teste{
+
+.teste {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+p{
+background-color: rgba(109, 121, 147, 0.23);
+}
+
+
 
