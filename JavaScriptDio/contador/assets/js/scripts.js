@@ -25,7 +25,7 @@ function decrement(){
         subtrair.disabled = true;
         subtrair.style.color = '#FDFDFD';
         subtrair.style.border = '2px solid #FDFDFD';
-    } else if(!(currentNumber  < 10)) {
+    } else if(!(currentNumber  < 9)) {
         adicionar.disabled = false;
         adicionar.style.color = '#F08080FF';
         adicionar.style.border = '2px solid #F08080FF';
