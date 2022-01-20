@@ -23,8 +23,9 @@ function decrement(){
     currentNumberWrapper.innerHTML=currentNumber;
     if(currentNumber <= 0){
         subtrair.disabled = true;
-        subtrair.style.color = '#FDFDFD';
-        subtrair.style.border = '2px solid #FDFDFD';
+        subtrair.style.color = '#000000';
+        subtrair.style.border = '2px solid #D2D1D100';
+        subtrair.style.backgroundColor = '#D2D1D1FF';
     } else if(!(currentNumber  < 9)) {
         adicionar.disabled = false;
         adicionar.style.color = '#F08080FF';
